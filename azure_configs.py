@@ -5,3 +5,4 @@ fs = azure.storage.file.fileservice.FileService(
     sas_token=<REDACTED>)
 
 fs.get_file_to_path('secrets', None, 'config.txt', 'config')
+
